@@ -1,0 +1,141 @@
+h1 {color: #000000; font-size:300%; font-family: "Comic Sans MS"; font-weight: bold; text-align: center;}
+h2 {color: #000000; font-family: "Comic Sans MS";}
+h3 {color: #000000; font-family: "Comic Sans MS"; text-align: center; font-size: 30px;}
+h5 {color: #000000; font-family: "Comic Sans MS"; font-size: 15px;}
+h6 {color: #000000; font-family: "Comic Sans MS"; font-size: 20px; margin-bottom: 0%; margin-top: 0%; font-weight: bold;}
+p {color: #000000; font-family: "Comic Sans MS";}
+
+input:not(:checked) ~ .add1{display: none; white-space: pre-line;}
+
+input:not(:checked) ~ .add2{display: none; white-space: pre-line;}
+
+
+.view { display: flex; justify-content: left; margin-top: 10%;}
+
+
+button { 
+    text-align: center;
+    background-color: #f6b26b;
+    font-family: "Comic Sans MS", sans-serif;
+    color: black;
+    border: 3px solid black;
+}
+.btn {
+    border: 3px solid black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.containers {
+    display: flex;
+}
+
+#headerView {
+    overflow: hidden;
+    background-color: #eeeeee;
+    padding: 0.5%;
+    padding-bottom: 1%;
+}
+
+.start_latin {
+    order: 0;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.start_button {
+    order: 1;
+    text-align: center;
+}
+
+.start_box {
+    padding: 20% 20%;
+    justify-content: center;
+}
+
+.sidebar {
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid black;
+}
+
+.sidebar_btn{
+    background-color: #eeeeee;
+}
+
+.search_bars {
+    border-top: 3px solid #b3b3b3;
+    justify-content: space-between;
+    padding: 3% 5%;
+
+}
+
+.threebar{
+    margin-right: 30%;
+}
+
+
+/*.all_dishes {
+    border-top: 3px solid black;
+    width: 165%;
+}
+
+.btn_image {
+    background-color: #ffffff;
+    padding: 0% 0%;
+    margin-left:5%;
+    margin-top:10%;
+    height: 70%;
+    width: 20%;
+
+}
+
+.dish_name_menu {
+    border-top: 3px solid black;
+    background-color: #eeeeee;
+    margin:0%;
+
+}
+*/
+.side_cost {
+    background-color: #eeeeee;
+    padding: 0.5%;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    justify-content: center;
+}
+
+.side_something1 {
+    display: inline-block;
+}
+
+.side_something2 {
+    display: inline-block;
+    text-align: right;
+}
+
+
+.side_name {
+    display: inline-block;
+}
+
+.price {
+    display: inline-block;
+}
+
+.big_box_ingredients {
+    background-color: #ffe599;
+    border: 3px solid black;
+    padding: 15px 15px;
+}
+
+
+.input_guests {
+    display: inline-block;
+}
+
+
+#my_dinner {
+    border-bottom: 3px solid black;
+}
