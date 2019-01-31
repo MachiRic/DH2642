@@ -13,6 +13,11 @@ input:not(:checked) ~ .add2{display: none; white-space: pre-line;}
 .view { display: flex; justify-content: left; margin-top: 10%;}
 
 
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 button { 
     text-align: center;
     background-color: #f6b26b;
@@ -20,6 +25,27 @@ button {
     color: black;
     border: 3px solid black;
 }
+
+
+.btn_image {
+    background-color: #eeeeee;
+    padding: 0% 0%;
+    height: 160px;
+    width: 120px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+
+.dish_name_menu {
+    border-top: 3px solid black;
+    margin:0%;
+    height: 40px;
+    width: 114px;
+    vertical-align: middle;
+}
+
+
 .btn {
     border: 3px solid black;
     padding: 10px 20px;
@@ -63,11 +89,14 @@ button {
 .sidebar_btn{
     background-color: #eeeeee;
 }
+.nopad {
+    padding: 0px 0px;
+}
 
 .search_bars {
     border-top: 3px solid #b3b3b3;
     justify-content: space-between;
-    padding: 3% 5%;
+    padding: 15px 40px;
 
 }
 
@@ -75,29 +104,10 @@ button {
     margin-right: 30%;
 }
 
-
-/*.all_dishes {
-    border-top: 3px solid black;
-    width: 165%;
+.all_dishes {
+    margin-left: 40px
 }
 
-.btn_image {
-    background-color: #ffffff;
-    padding: 0% 0%;
-    margin-left:5%;
-    margin-top:10%;
-    height: 70%;
-    width: 20%;
-
-}
-
-.dish_name_menu {
-    border-top: 3px solid black;
-    background-color: #eeeeee;
-    margin:0%;
-
-}
-*/
 .side_cost {
     background-color: #eeeeee;
     padding: 0.5%;
@@ -118,10 +128,12 @@ button {
 
 .side_name {
     display: inline-block;
+    color: darkred;
 }
 
 .price {
     display: inline-block;
+    color: darkred;
 }
 
 .big_box_ingredients {
@@ -138,4 +150,8 @@ button {
 
 #my_dinner {
     border-bottom: 3px solid black;
+}
+
+.inline {
+    display: inline-block;
 }
